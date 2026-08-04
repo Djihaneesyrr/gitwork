@@ -12,7 +12,7 @@ export function Footer() {
           Djihane <span className="text-primary">&amp;</span> Azzeddine
         </p>
         <p className="mt-3 font-sans text-[0.65rem] uppercase tracking-luxe text-muted-foreground">
-          09 · 09 · 2026 — Bordj El-Kiffan, Algérie
+          09 · 09 · 2026 — Sétif, Algérie
         </p>
         <p className="mt-8 font-sans text-[0.65rem] uppercase tracking-wide-lux text-muted-foreground/70">
           Avec amour

@@ -4,10 +4,13 @@ import { MapPin, Navigation } from 'lucide-react'
 import { FadeIn } from './fade-in'
 import { Flourish } from './ornaments'
 
+const MAPS_QUERY = 'Bordj El Kiffan, Alger, Algérie'
 const EMBED_SRC = `https://maps.google.com/maps?q=${encodeURIComponent(
   'Bordj El Kiffan, Alger, Algérie',
-)}&z=14&output=embed`
-const DIRECTIONS_URL = 'https://maps.app.goo.gl/FJMGY5n7QuA1YY5R7'
+)}&z=13&output=embed`
+const DIRECTIONS_URL = `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(
+  MAPS_QUERY,
+)}`
 
 export function Location() {
   return (
