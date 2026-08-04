@@ -31,8 +31,8 @@ export function Location() {
             <div className="flex h-full flex-col overflow-hidden border border-border bg-card">
               <div className="aspect-[16/10] overflow-hidden">
                 <img
-                  src="/images/venue-real.webp"
-                  alt="Scène de mariage immaculée blanche et or, canapé central entouré de compositions florales, chandeliers dorés et voilages"
+                  src="/images/venue-hall.webp"
+                  alt="Salle de réception luxueuse aux lustres de cristal, plafond drapé, estrade dorée avec canapé blanc et tables habillées de blanc"
                   className="h-full w-full object-cover transition-transform duration-[1200ms] hover:scale-105"
                 />
               </div>
